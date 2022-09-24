@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CisActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Entire nation is changing from a manual system to digital system, so it is high time to produce quality graduate to meet up the nation’s demand as well as to meet the global demand. Realizing this, Daffodil International University commenced the Department of Computing and Information System (CIS) after 2002.
+
+Computing Information System (CIS) recently changed its course curriculum with newest trend merging the best of both IT &amp; Business worlds in a single domain.
+
+In this 21st century, having only a specific domain knowledge one cannot survive or progress further. Companies are usually searching for multi-skilled people who are equally competent in both business and technical areas."
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+</ScrollView>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.diufacultyinfo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".IslmActivity"
+            android:label="@string/islm"
+            android:parentActivityName=".FhssActivity"
+            ></activity>
+        <activity android:name=".DsActivity"
+            android:label="@string/ds"
+            android:parentActivityName=".FhssActivity"
+            />
+        <activity android:name=".JmcActivity"
+            android:label="@string/jmc"
+            android:parentActivityName=".FhssActivity"
+            />
+        <activity android:name=".LawActivity"
+            android:label="@string/law"
+            android:parentActivityName=".FhssActivity"
+            />
+        <activity android:name=".EngActivity"
+            android:label="@string/eng"
+            android:parentActivityName=".FhssActivity"
+            />
+
+        <activity
+            android:name=".NfeActivity"
+            android:label="@string/nfe"
+            android:parentActivityName=".FahsActivity" />
+        <activity
+            android:name=".PhActivity"
+            android:label="@string/ph"
+            android:parentActivityName=".FahsActivity" />
+        <activity
+            android:name=".PharActivity"
+            android:label="@string/phar"
+            android:parentActivityName=".FahsActivity" />
+        <activity
+            android:name=".IeActivity"
+            android:label="@string/ie"
+            android:parentActivityName=".FbeActivity" />
+        <activity
+            android:name=".Thm2Activity"
+            android:label="@string/thm"
+            android:parentActivityName=".FbeActivity" />
+        <activity
+            android:name=".ReActivity"
+            android:label="@string/re"
+            android:parentActivityName=".FbeActivity" />
+        <activity
+            android:name=".BsActivity"
+            android:label="@string/bs"
+            android:parentActivityName=".FbeActivity" />
+        <activity
+            android:name=".BaActivity"
+            android:label="@string/ba"
+            android:parentActivityName=".FbeActivity" />
+        <activity
+            android:name=".CeActivity"
+            android:label="@string/ce"
+            android:parentActivityName=".FeActivity" />
+        <activity
+            android:name=".ArchActivity"
+            android:label="@string/arch"
+            android:parentActivityName=".FeActivity" />
+        <activity
+            android:name=".EeeActivity"
+            android:label="@string/eee"
+            android:parentActivityName=".FeActivity" />
+        <activity
+            android:name=".TeActivity"
+            android:label="@string/te"
+            android:parentActivityName=".FeActivity" />
+        <activity
+            android:name=".EteActivity"
+            android:label="@string/ete"
+            android:parentActivityName=".FeActivity" />
+        <activity
+            android:name=".GedActivity"
+            android:label="@string/ged"
+            android:parentActivityName=".FsitActivity" />
+        <activity
+            android:name=".EsdmActivity"
+            android:label="@string/esdm"
+            android:parentActivityName=".FsitActivity" />
+        <activity
+            android:name=".SeActivity"
+            android:label="@string/se"
+            android:parentActivityName=".FsitActivity" />
+        <activity
+            android:name=".CisActivity"
+            android:label="@string/cis"
+            android:parentActivityName=".FsitActivity" />
+        <activity
+            android:name=".CseActivity"
+            android:label="@string/cse"
+            android:parentActivityName=".FsitActivity" />
+        <activity
+            android:name=".FhssActivity"
+            android:label="@string/fhss"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FahsActivity"
+            android:label="@string/fahs"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FeActivity"
+            android:label="@string/fe"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FbeActivity"
+            android:label="@string/fbe"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FsitActivity"
+            android:label="@string/fsit"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

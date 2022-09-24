@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CseActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Daffodil International University’s mission is defined by its IT-based traditions of service and access. To upheld, DIU started with the Department of Computer Science and Engineering (CSE) in January 24, 2002. After that, Faculty of Science and Information Technology started two more programs: Computer Science (CS) and Computing and Information System (CIS)."
+        android:textSize="40dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+</ScrollView>
